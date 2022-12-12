@@ -2321,7 +2321,11 @@ margin: 8px 0;
 				}
 
 		@media screen and (max-width: 736px) {
-
+			#footer .copyright {
+				list-style: none;
+				padding-left: 0;
+				scale: 2.5;
+			}
 			#footer .copyright li {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
